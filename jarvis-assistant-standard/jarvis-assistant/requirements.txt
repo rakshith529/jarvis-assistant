@@ -1,0 +1,9 @@
+# JARVIS Voice Assistant – Python dependencies
+# Install with: pip install -r requirements.txt
+
+openai>=1.0.0          # OpenAI-compatible client (used for OpenRouter)
+python-dotenv>=1.0.0   # Load environment variables from .env
+SpeechRecognition>=3.10.0
+pyttsx3>=2.90
+pyaudio>=0.2.14        # Microphone access (required by SpeechRecognition)
+streamlit>=1.35.0      # Web UI
